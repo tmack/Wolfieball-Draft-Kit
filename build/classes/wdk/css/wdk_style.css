@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 15, 2015, 12:25:27 PM
+    Author     : Terrell Mack
+*/
+
+// CSS CLASS FOR OUR BIG PANES
+.bordered_pane {
+    -fx-background-color: #aaaaff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+}
+
+// CSS CLASS FOR LABELS HEADING LARGE SECTIONS IN THE GUI
+.heading_label {
+    -fx-font-size: 20pt;
+   // -fx-text-fill: #444444;
+   -fx-text-fill: #FFFFFF; 
+   -fx-padding: 5;
+   
+}
+
+.screens_label {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5;
+    
+}
+
+// CSS CLASS FOR LABELS HEADING SUBSECTIONS IN THE GUI
+.subheading_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+// CSS CLASS FOR LABELS SERVING AS PROMPTS IN THE GUI
+.prompt_label {
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+}
+
+.screens_pane {
+    
+    -fx-background-color: #880000;
+    
+}
